@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'; // Import useEffect and useState from React
-import styles from './navigation1.module.css';
+// import styles from './navigation1.module.css';
 
 const Navigation = () => {
   const [isNavbarActive, setIsNavbarActive] = useState(false); // Define state for navbar active status
