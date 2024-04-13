@@ -1,7 +1,7 @@
-import FrameComponent16 from "../../../../Darsana15/components/frame-component16";
-import IconContent from "../../../../Darsana15/components/icon-content";
-import FrameComponent14 from "../../../../Darsana15/components/frame-component14";
-import ContactInfo from "../../../../Darsana15/components/contact-info";
+import FrameComponent16 from "../components/frame-component16";
+import IconContent from "../components/icon-content";
+import FrameComponent14 from "../components/frame-component14";
+import ContactInfo from "../components/contact-info";
 import styles from "./chapters.module.css";
 
 const Chapters = () => {
