@@ -1,0 +1,292 @@
+.productImageElement {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  width: 609.3px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 17.3px;
+  max-width: 100%;
+}
+.image42Icon,
+.productGChild {
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+}
+.productGChild {
+  align-self: stretch;
+  height: 358px;
+  border-radius: 5px;
+  flex-shrink: 0;
+  display: none;
+}
+.image42Icon {
+  height: 198.4px;
+  flex: 1;
+  object-fit: cover;
+  z-index: 2;
+}
+.image42Wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 44px 0 42.3px;
+}
+.frameChild {
+  align-self: stretch;
+  height: 0.5px;
+  position: relative;
+  border-radius: 5px;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+  z-index: 1;
+}
+.aCofeeMachine {
+  margin: 0;
+}
+.bellRossContainer {
+  height: 48px;
+  flex: 1;
+  position: relative;
+  letter-spacing: -0.2px;
+  line-height: 24px;
+  font-weight: 500;
+  display: inline-block;
+  z-index: 1;
+}
+.bellRossNightlumWrapper,
+.productG,
+.vectorParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.bellRossNightlumWrapper {
+  width: 248px;
+  flex-direction: row;
+  padding: 0 28px;
+  box-sizing: border-box;
+}
+.productG,
+.vectorParent {
+  flex-direction: column;
+}
+.vectorParent {
+  align-self: stretch;
+  gap: 18.5px;
+}
+.productG {
+  position: absolute;
+  top: 50px;
+  left: 626.7px;
+  border-radius: 5px;
+  background-color: #fff;
+  border: 0 solid rgba(158, 146, 146, 0.6);
+  box-sizing: border-box;
+  width: 296px;
+  padding: 22px 0 33px;
+  gap: 37.6px;
+}
+.socialMediaIconColorgoogle {
+  height: 14px;
+  width: 14px;
+  position: relative;
+  display: none;
+}
+.default {
+  position: relative;
+  font-size: 12px;
+  line-height: 16px;
+  font-family: Inter;
+  color: #666f8d;
+  text-align: left;
+  display: inline-block;
+  min-width: 63px;
+}
+.dropdownTextArea,
+.link,
+.masterLink {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.dropdownTextArea,
+.link {
+  align-items: flex-start;
+}
+.dropdownTextArea {
+  cursor: pointer;
+  border: 0;
+  padding: 8px;
+  background-color: #fff;
+  border-radius: 16px;
+  overflow: hidden;
+  align-items: center;
+  gap: 6px;
+}
+.socialMediaIconColorairtab {
+  height: 14px;
+  width: 14px;
+  position: relative;
+  display: none;
+}
+.default1 {
+  position: relative;
+  line-height: 16px;
+  display: inline-block;
+  min-width: 28px;
+}
+.dropdownTextArea1,
+.link1,
+.masterLink1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.dropdownTextArea1,
+.link1 {
+  align-items: flex-start;
+}
+.dropdownTextArea1 {
+  align-self: stretch;
+  border-radius: 16px;
+  background-color: #fff;
+  overflow: hidden;
+  align-items: center;
+  padding: 8px;
+  gap: 6px;
+}
+.lineRoundedcsvIcon {
+  height: 14px;
+  width: 14px;
+  position: relative;
+  display: none;
+}
+.default2 {
+  position: relative;
+  line-height: 16px;
+  display: inline-block;
+  min-width: 48px;
+}
+.dropdownTextArea2,
+.link2,
+.masterLink2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.dropdownTextArea2,
+.link2 {
+  align-items: flex-start;
+}
+.dropdownTextArea2 {
+  border-radius: 16px;
+  background-color: #fff;
+  overflow: hidden;
+  align-items: center;
+  padding: 8px 23px 8px 8px;
+  gap: 6px;
+}
+.lineRoundedcodeIcon {
+  height: 14px;
+  width: 14px;
+  position: relative;
+  display: none;
+}
+.default3 {
+  position: relative;
+  font-size: 12px;
+  line-height: 16px;
+  font-family: Inter;
+  color: #666f8d;
+  text-align: left;
+  display: inline-block;
+  min-width: 62px;
+}
+.dropdownTextArea3,
+.link3,
+.masterLink3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.dropdownTextArea3,
+.link3 {
+  align-items: flex-start;
+}
+.dropdownTextArea3 {
+  cursor: pointer;
+  border: 0;
+  padding: 8px 9px 8px 8px;
+  background-color: #fff;
+  border-radius: 16px;
+  overflow: hidden;
+  align-items: center;
+  gap: 6px;
+}
+.exportDropdown {
+  width: 95px;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(25, 33, 61, 0.08);
+  border: 1px solid #f0f2f5;
+  box-sizing: border-box;
+  flex-direction: column;
+  padding: 8px 7px;
+  gap: 2px;
+  z-index: 3;
+}
+.exportDropdown,
+.exportDropdownMenu,
+.productGWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.productGWrapper {
+  flex: 1;
+  flex-direction: column;
+  padding: 50px 0 0;
+  box-sizing: border-box;
+  min-width: 192px;
+}
+.exportDropdownMenu {
+  position: absolute;
+  top: 0;
+  left: 795px;
+  width: 442px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 51px;
+  max-width: 100%;
+  font-size: 12px;
+  color: #666f8d;
+}
+.productImageElementParent {
+  width: 1237px;
+  height: 408px;
+  position: relative;
+  max-width: 100%;
+  text-align: left;
+  font-size: 16px;
+  color: #251b1b;
+  font-family: Inter;
+}
+@media screen and (max-width: 700px) {
+  .productImageElementParent {
+    height: auto;
+    min-height: 408;
+  }
+}

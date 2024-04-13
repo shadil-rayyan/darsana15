@@ -1,0 +1,326 @@
+.secondaryButtonText {
+  width: 84px;
+  position: relative;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: Roboto;
+  color: #fff;
+  text-align: right;
+  display: inline-block;
+  min-width: 84px;
+}
+.secondaryButton {
+  cursor: pointer;
+  border: 0;
+  padding: 16px 32px;
+  background-color: #0162e8;
+  border-radius: 8px;
+  backdrop-filter: blur(80px);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  white-space: nowrap;
+  z-index: 1;
+}
+.secondaryButton:hover {
+  background-color: #2687ff;
+}
+.playIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  min-height: 24px;
+}
+.playVideo {
+  align-self: stretch;
+  position: relative;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: Roboto;
+  color: #fff;
+  text-align: right;
+  display: inline-block;
+  min-width: 77px;
+}
+.childLink {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 2.5px 0 0;
+}
+.videoButton {
+  cursor: pointer;
+  border: 0;
+  padding: 12px 16px;
+  background-color: #0162e8;
+  align-self: stretch;
+  border-radius: 8px;
+  flex-direction: row;
+  gap: 8px;
+  z-index: 1;
+}
+.secondaryButtonParent,
+.videoButton,
+.videoButtonWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.videoButtonWrapper {
+  flex: 1;
+  flex-direction: column;
+  padding: 1.5px 0 0;
+}
+.secondaryButtonParent {
+  width: 313.2px;
+  flex-direction: row;
+  gap: 24.2px;
+}
+.bijuCherianScholarship {
+  height: 72px;
+  flex: 1;
+  position: relative;
+  font-weight: 800;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.bijuCherianScholarshipBcsWrapper,
+.frameDiv {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.bijuCherianScholarshipBcsWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 12px;
+}
+.frameDiv {
+  width: 379px;
+  flex-direction: column;
+  padding: 0 20px 0 0;
+  gap: 18px;
+}
+.childButton {
+  position: absolute;
+  top: 18px;
+  left: 0;
+  backdrop-filter: blur(30px);
+  border-top: 1px solid #e5e5e5;
+  box-sizing: border-box;
+  width: 838.2px;
+  height: 1px;
+  z-index: 1;
+}
+.dot,
+.dot1,
+.dot2,
+.dot3,
+.dot4,
+.dot5,
+.dot6,
+.dot7 {
+  height: 8px;
+  width: 8px;
+  position: relative;
+  border-radius: 50%;
+  background-color: #000;
+}
+.dot1,
+.dot2,
+.dot3,
+.dot4,
+.dot5,
+.dot6,
+.dot7 {
+  background-color: #8d8d8d;
+}
+.sliderDots {
+  position: absolute;
+  top: 0;
+  left: 332.6px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 10px;
+  gap: 9px;
+  z-index: 2;
+}
+.childButtonParent {
+  height: 28px;
+  width: 837.2px;
+  position: relative;
+  max-width: 100%;
+}
+.frameWrapper1 {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 30px 29px 20px;
+  box-sizing: border-box;
+}
+.counter,
+.counterWrapper,
+.frameContainer,
+.frameWrapper1 {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.counter {
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+}
+.counterWrapper,
+.frameContainer {
+  justify-content: flex-start;
+}
+.counterWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 12px;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 54px;
+  color: #0e0606;
+}
+.frameContainer {
+  flex: 1;
+  flex-direction: column;
+  gap: 23px;
+}
+.frameWrapper,
+.line {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frameWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 3px 0 0;
+}
+.line {
+  width: 1059.6px;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid #e5e5e5;
+  z-index: 1;
+}
+.frameChild,
+.frameGroup {
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+}
+.frameGroup {
+  width: 1257px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 72px;
+  min-width: 1257px;
+}
+.frameChild {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.darsanaPageInner,
+.frameParent,
+.vectorWrapper {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.vectorWrapper {
+  height: 354px;
+  width: 462.2px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 1px;
+  min-width: 462.2000000000007px;
+}
+.darsanaPageInner,
+.frameParent {
+  flex-direction: row;
+}
+.frameParent {
+  width: 1373px;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 0 0 20px;
+  gap: 144px;
+}
+.darsanaPageInner {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 7.2px;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.89);
+  font-family: Roboto;
+}
+@media screen and (max-width: 1350px) {
+  .frameContainer {
+    flex: 1;
+  }
+  .frameGroup {
+    flex: 1;
+    min-width: 100%;
+  }
+  .frameChild {
+    align-self: stretch;
+    width: auto;
+  }
+  .vectorWrapper {
+    flex: 1;
+  }
+  .frameParent {
+    flex-wrap: wrap;
+    gap: 72px;
+  }
+}
+@media screen and (max-width: 1125px) {
+  .counter {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 800px) {
+  .frameGroup {
+    gap: 36px;
+  }
+  .vectorWrapper {
+    min-width: 100%;
+  }
+  .frameParent {
+    gap: 36px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .bijuCherianScholarship {
+    font-size: 16px;
+  }
+  .frameGroup,
+  .frameParent {
+    gap: 18px;
+  }
+}

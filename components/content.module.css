@@ -1,0 +1,151 @@
+.image15Icon,
+.image17Icon {
+  position: relative;
+  object-fit: cover;
+}
+.image15Icon {
+  height: 354px;
+  width: 600px;
+  display: none;
+  max-width: 100%;
+}
+.image17Icon {
+  height: 50px;
+  width: 50px;
+  z-index: 1;
+}
+.image15Parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 165px 20px 139px;
+  box-sizing: border-box;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  max-width: 100%;
+}
+.b {
+  width: 21px;
+  position: relative;
+  line-height: 101.1%;
+  display: inline-block;
+  min-width: 21px;
+}
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 18px;
+}
+.jan {
+  width: 50px;
+  position: relative;
+  line-height: 101.1%;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 50px;
+}
+.webinarTitle {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 3px 0 3.5px;
+  font-size: 24px;
+  color: #4539b4;
+}
+.darsanaWebinar {
+  align-self: stretch;
+  position: relative;
+  font-size: 23px;
+  line-height: 101.1%;
+  display: inline-block;
+  min-width: 57px;
+}
+.frameGroup,
+.frameWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameGroup {
+  align-self: stretch;
+  gap: 6px;
+}
+.frameWrapper {
+  width: 57px;
+  padding: 3px 0 0;
+  box-sizing: border-box;
+}
+.darsanaWebinar3 {
+  flex: 1;
+  position: relative;
+  font-size: 24px;
+  display: -webkit-inline-box;
+  font-family: "Open Sans";
+  text-align: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  min-width: 333px;
+  max-width: 100%;
+}
+.content,
+.frameParent {
+  width: 586px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 16px;
+  max-width: 100%;
+}
+.content {
+  width: 602px;
+  border-radius: 5px;
+  border: 1px solid #c7bfbf;
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 0 15px;
+  gap: 15px;
+  flex-shrink: 0;
+  text-align: center;
+  font-size: 26px;
+  color: #2d2c3b;
+  font-family: Montserrat;
+}
+@media screen and (max-width: 800px) {
+  .frameParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .image15Parent {
+    padding-top: 107px;
+    padding-bottom: 90px;
+    box-sizing: border-box;
+  }
+  .b {
+    font-size: 21px;
+    line-height: 21px;
+  }
+  .darsanaWebinar,
+  .jan {
+    font-size: 19px;
+    line-height: 19px;
+  }
+  .darsanaWebinar {
+    font-size: 18px;
+  }
+  .darsanaWebinar3 {
+    font-size: 19px;
+  }
+}

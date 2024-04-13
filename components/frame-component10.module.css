@@ -1,0 +1,149 @@
+.a3de16853466971Icon,
+.edc4416825307111Icon {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+.edc4416825307111Icon {
+  flex: 1;
+  max-height: 100%;
+}
+.a3de16853466971Icon {
+  height: 217px;
+  flex-shrink: 0;
+}
+.edc4416825307111Parent {
+  height: 515px;
+  width: 322px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 18px 0 0;
+  box-sizing: border-box;
+  gap: 70px;
+  max-width: 100%;
+}
+.a64c16853461931Icon,
+.bfa1de7824d16902804141Icon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.bfa1de7824d16902804141Parent {
+  height: 543px;
+  width: 304px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 87px;
+}
+.f8f6ed16853463671Icon,
+.image58Icon {
+  height: 228px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+.image58Icon {
+  flex: 1;
+  min-width: 198px;
+}
+.f8f6ed16853463671Icon {
+  align-self: stretch;
+  flex-shrink: 0;
+}
+.f8f6ed16853463671Wrapper,
+.image58Parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.f8f6ed16853463671Wrapper {
+  flex: 1;
+  flex-direction: column;
+  padding: 15px 0 0;
+  box-sizing: border-box;
+  min-width: 198px;
+}
+.image58Parent {
+  align-self: stretch;
+  flex-direction: row;
+  gap: 32px;
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+}
+.ffb86741216851270961Icon {
+  width: 304px;
+  height: 165.4px;
+  position: relative;
+  object-fit: cover;
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+}
+.frameGroup,
+.frameWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameGroup {
+  align-self: stretch;
+  gap: 70px;
+  flex-shrink: 0;
+}
+.frameWrapper {
+  flex: 1;
+  padding: 0 0 52px;
+  box-sizing: border-box;
+  min-width: 416px;
+  min-height: 530px;
+  max-width: 100%;
+}
+.frameParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 32px;
+  max-width: 100%;
+}
+@media screen and (max-width: 750px) {
+  .image58Parent {
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+  .frameGroup {
+    gap: 35px;
+  }
+  .frameWrapper {
+    padding-bottom: 34px;
+    box-sizing: border-box;
+    min-width: 100%;
+  }
+  .frameParent {
+    gap: 16px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .edc4416825307111Parent {
+    gap: 35px;
+  }
+  .bfa1de7824d16902804141Parent {
+    gap: 43px;
+  }
+  .frameGroup {
+    gap: 17px;
+  }
+}

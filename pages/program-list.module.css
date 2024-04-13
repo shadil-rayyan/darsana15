@@ -1,0 +1,58 @@
+.contentCardGroup,
+.contentCardParent,
+.programList {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 74px;
+}
+.contentCardGroup,
+.contentCardParent {
+  flex: 1;
+  flex-direction: column;
+  min-width: 333px;
+  max-width: 100%;
+}
+.programList {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  overflow: hidden;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 204px 170px 45px 172px;
+  box-sizing: border-box;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1200px) {
+  .programList {
+    gap: 37px;
+    padding-left: 86px;
+    padding-right: 85px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .contentCardGroup,
+  .contentCardParent {
+    gap: 37px;
+  }
+  .programList {
+    gap: 18px;
+    padding-left: 43px;
+    padding-right: 42px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .contentCardGroup,
+  .contentCardParent {
+    gap: 18px;
+  }
+  .programList {
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+}

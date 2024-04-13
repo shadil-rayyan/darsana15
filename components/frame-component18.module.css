@@ -1,0 +1,262 @@
+.image23Icon {
+  position: absolute;
+  top: 38px;
+  left: 16px;
+  width: 299px;
+  height: 299px;
+  object-fit: cover;
+}
+.image23Wrapper {
+  align-self: stretch;
+  height: 342px;
+  position: relative;
+  border-radius: 10px;
+  background-color: #0e5b8a;
+  border: 5px solid #0d1e2d;
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.manojKC,
+.president {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 1px;
+  z-index: 1;
+}
+.manojKC {
+  line-height: 27px;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 107px;
+}
+.president {
+  align-self: stretch;
+  line-height: 30px;
+  font-weight: 400;
+  font-family: Raleway;
+}
+.manojKCParent {
+  width: 135px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 1px;
+}
+.frameContainer,
+.frameGroup,
+.manojKCParent {
+  display: flex;
+  align-items: flex-start;
+}
+.frameContainer {
+  width: 319px;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+.frameGroup {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 23px;
+  max-width: 100%;
+}
+.image24Icon {
+  position: absolute;
+  bottom: -11.2px;
+  left: calc(50% - 150px);
+  width: 300px;
+  height: 274.2px;
+  object-fit: cover;
+  z-index: 2;
+}
+.image24Wrapper {
+  align-self: stretch;
+  height: 342px;
+  position: relative;
+  border-radius: 10px;
+  background-color: #0e5b8a;
+  border: 5px solid #0d1e2d;
+  box-sizing: border-box;
+  z-index: 1;
+}
+.sunilNMenon {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 1px;
+  line-height: 27px;
+  font-weight: 700;
+  font-family: inherit;
+  z-index: 1;
+}
+.sunilNMenonWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 13px 0 17px;
+}
+.generalSecretary {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 1px;
+  line-height: 27px;
+  font-weight: 400;
+  font-family: Raleway;
+  white-space: nowrap;
+  z-index: 1;
+}
+.frameParent1 {
+  flex-direction: column;
+  gap: 4px;
+}
+.frameDiv,
+.frameParent1,
+.frameWrapper1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameWrapper1 {
+  flex-direction: row;
+  padding: 0 78px 0 72px;
+}
+.frameDiv {
+  flex-direction: column;
+  gap: 23px;
+  max-width: 100%;
+}
+.image25Icon {
+  position: absolute;
+  top: 39px;
+  left: 17px;
+  width: 298px;
+  height: 298px;
+  object-fit: cover;
+}
+.image25Wrapper,
+.vinodP {
+  position: relative;
+  z-index: 1;
+}
+.image25Wrapper {
+  align-self: stretch;
+  height: 342px;
+  border-radius: 10px;
+  background-color: #0e5b8a;
+  border: 5px solid #0d1e2d;
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.vinodP {
+  margin: 0;
+  font-size: inherit;
+  letter-spacing: 1px;
+  line-height: 27px;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 82px;
+}
+.vinodPWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 6px 0 7px;
+}
+.treasurer {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 1px;
+  line-height: 27px;
+  font-weight: 400;
+  font-family: Raleway;
+  display: inline-block;
+  min-width: 95px;
+  z-index: 1;
+}
+.frameParent3 {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 2px;
+}
+.frameParent2,
+.frameParent3,
+.frameWrapper2 {
+  display: flex;
+  align-items: flex-start;
+}
+.frameWrapper2 {
+  width: 315px;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+.frameParent2 {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 23px;
+  max-width: 100%;
+}
+.frameParent,
+.frameWrapper {
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameParent {
+  display: grid;
+  justify-content: flex-start;
+  gap: 35px;
+  grid-template-columns: repeat(3, minmax(249px, 1fr));
+}
+.frameWrapper {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 34px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: 20px;
+  color: #000;
+  font-family: "Red Rose";
+}
+@media screen and (max-width: 1050px) {
+  .frameParent {
+    margin: 0 auto;
+    grid-template-columns: repeat(2, minmax(249px, 432px));
+  }
+}
+@media screen and (max-width: 750px) {
+  .frameParent {
+    gap: 17px;
+    grid-template-columns: minmax(249px, 1fr);
+  }
+}
+@media screen and (max-width: 450px) {
+  .generalSecretary,
+  .manojKC,
+  .president,
+  .sunilNMenon {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .frameWrapper1 {
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+  .treasurer,
+  .vinodP {
+    font-size: 16px;
+    line-height: 22px;
+  }
+}

@@ -1,0 +1,125 @@
+.bellRoss {
+  position: relative;
+  line-height: 22px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 35px;
+  white-space: nowrap;
+  z-index: 2;
+}
+.backgroundIcon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 10px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 1;
+}
+.outerBackgroundChild {
+  position: absolute;
+  top: 16px;
+  left: 50px;
+  width: 11px;
+  height: 5px;
+  object-fit: contain;
+  z-index: 2;
+}
+.outerBackground {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.bellRossNightlumParent {
+  width: 65px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 9px 12px;
+  box-sizing: border-box;
+  position: relative;
+}
+.backgroundIcon1 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 10px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.image41Icon {
+  position: absolute;
+  top: 7px;
+  left: 388px;
+  width: 28px;
+  height: 28px;
+  object-fit: cover;
+  z-index: 1;
+}
+.backgroundParent {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.bellRoss1 {
+  width: 89.1px;
+  position: relative;
+  letter-spacing: -0.2px;
+  line-height: 24px;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.breadcrumb,
+.productImage {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.productImage {
+  width: 429px;
+  justify-content: flex-start;
+  padding: 9px 16.3px 7px;
+  position: relative;
+  margin-left: -1px;
+  font-size: 16px;
+}
+.breadcrumb {
+  width: 100%;
+  margin: 0 !important;
+  position: absolute;
+  top: 120px;
+  right: 0;
+  left: 0;
+  border: 1px solid #000;
+  overflow: hidden;
+  justify-content: flex-end;
+  padding: 12px 40px;
+  text-align: left;
+  font-size: 17px;
+  color: #606060;
+  font-family: Inter;
+}

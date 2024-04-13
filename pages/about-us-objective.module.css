@@ -1,0 +1,394 @@
+.aboutUsObjectiveChild {
+  width: 1412px;
+  height: 2117px;
+  position: relative;
+  display: none;
+  max-width: 100%;
+}
+.aboutUs,
+.aboutUsWrapper {
+  display: flex;
+  max-width: 100%;
+}
+.aboutUs {
+  margin: 0;
+  height: 175px;
+  width: 534px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.16px;
+  line-height: 28.8px;
+  font-weight: 800;
+  font-family: inherit;
+  align-items: center;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.aboutUsWrapper {
+  width: 1217.1px;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 0 0 159px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: 64px;
+  color: #000;
+  font-family: Roboto;
+}
+.heading2 {
+  flex: 1;
+  position: relative;
+  font-size: 12px;
+  letter-spacing: 1px;
+  line-height: 14px;
+  font-weight: 500;
+  font-family: Raleway;
+  color: #000;
+  text-align: center;
+  display: inline-block;
+  min-width: 77.4px;
+}
+.divelementorWidgetWrap {
+  cursor: pointer;
+  border: 0;
+  padding: 27.5px 42.5px 28.5px 42.9px;
+  background-color: #1186c9;
+  width: 162.8px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  white-space: nowrap;
+}
+.divelementorWidgetWrap1:hover,
+.divelementorWidgetWrap:hover {
+  background-color: #2ba1e3;
+}
+.whatWeDo {
+  width: 81px;
+  position: relative;
+  font-size: 12px;
+  letter-spacing: 0.16px;
+  line-height: 35px;
+  font-weight: 500;
+  font-family: Raleway;
+  color: #000;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 81px;
+}
+.divelementorWidgetWrap1 {
+  cursor: pointer;
+  border: 0;
+  padding: 17.2px 37.7px 17.8px;
+  background-color: #1186c9;
+  width: 162.8px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  white-space: nowrap;
+}
+.heading21 {
+  flex: 1;
+  position: relative;
+  font-size: 12px;
+  letter-spacing: 1px;
+  line-height: 16px;
+  display: inline-block;
+  font-family: Raleway;
+  color: #fff;
+  text-align: center;
+  min-width: 89px;
+}
+.divelementorWidgetWrap2 {
+  cursor: pointer;
+  border: 0;
+  padding: 28px 36.3px;
+  background-color: #0e5b8a;
+  width: 162.8px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.divelementorWidgetWrap2:hover {
+  background-color: #3682b0;
+}
+.heading22 {
+  height: 39px;
+  flex: 1;
+  position: relative;
+  font-size: 12px;
+  letter-spacing: 1px;
+  line-height: 25px;
+  font-weight: 500;
+  font-family: Raleway;
+  color: #000;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.divelementorWidgetWrap3 {
+  cursor: pointer;
+  border: 0;
+  padding: 15px 27.5px 16px 27.8px;
+  background-color: #1186c9;
+  width: 162.8px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  white-space: nowrap;
+}
+.divelementorWidgetWrap3:hover,
+.divelementorWidgetWrap4:hover,
+.divelementorWidgetWrap6:hover {
+  background-color: #2ba1e3;
+}
+.heading23 {
+  flex: 1;
+  position: relative;
+  font-size: 12px;
+  letter-spacing: 1px;
+  line-height: 14px;
+  font-weight: 500;
+  font-family: Raleway;
+  color: #000;
+  text-align: center;
+}
+.divelementorWidgetWrap4 {
+  cursor: pointer;
+  border: 0;
+  padding: 28px 26.5px 28px 27.6px;
+  background-color: #1187c9;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  min-width: 109px;
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+}
+.leadership,
+.present {
+  margin: 0;
+}
+.heading2Container1 {
+  line-break: anywhere;
+}
+.heading2Container {
+  height: 44px;
+  flex: 1;
+  position: relative;
+  letter-spacing: 1px;
+  line-height: 25px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+.divelementorWidgetWrap5 {
+  flex: 1;
+  background-color: #1186c9;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 13px 21.8px 13px 38px;
+  box-sizing: border-box;
+  min-width: 109px;
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+  z-index: 1;
+  margin-left: -1.5px;
+}
+.heading24 {
+  height: 39px;
+  flex: 1;
+  position: relative;
+  font-size: 12px;
+  letter-spacing: 1px;
+  line-height: 25px;
+  font-weight: 500;
+  font-family: Raleway;
+  color: #000;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.divelementorWidgetWrap6 {
+  cursor: pointer;
+  border: 0;
+  padding: 15px 29.9px 16px;
+  background-color: #1187c9;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  min-width: 109px;
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+  z-index: 2;
+  margin-left: -1.5px;
+}
+.divelementorWidgetWrapParent {
+  flex: 1;
+  flex-direction: row;
+  justify-content: center;
+  min-width: 315px;
+  max-width: 100%;
+  row-gap: 20px;
+}
+.divelementorWidgetWrapParent,
+.headingWith,
+.sectionSection {
+  display: flex;
+  align-items: flex-start;
+}
+.sectionSection {
+  margin-left: -0.3000000000029104px;
+  align-self: stretch;
+  background-color: #1186c9;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 3px 0 0;
+  gap: 0.1px;
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+  z-index: 1;
+}
+.headingWith {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+  min-width: 741px;
+  max-width: 100%;
+}
+.heading25 {
+  height: 14px;
+  width: 77.4px;
+  position: relative;
+  letter-spacing: 1px;
+  line-height: 25px;
+  display: flex;
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  min-width: 77.4px;
+  debug_commit: f6aba90;
+  z-index: 1;
+}
+.headingWithParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: flex-start;
+  max-width: 100%;
+  row-gap: 20px;
+}
+.underTheBanner {
+  width: 986px;
+  position: relative;
+  letter-spacing: 1px;
+  line-height: 27px;
+  display: inline-block;
+  z-index: 1;
+}
+.underTheBannerOfDarsanaWeWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 39px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.aboutUsObjective,
+.frameParent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.frameParent {
+  width: 1217.1px;
+  align-items: flex-end;
+  gap: 105.5px;
+  max-width: 100%;
+  text-align: center;
+  font-size: 12px;
+  color: #000;
+  font-family: Raleway;
+}
+.aboutUsObjective {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  align-items: center;
+  padding: 141px 20px 517px 29px;
+  box-sizing: border-box;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1050px) {
+  .aboutUs {
+    font-size: 51px;
+    line-height: 23px;
+  }
+  .sectionSection {
+    flex-wrap: wrap;
+    padding-left: 3px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    box-sizing: border-box;
+  }
+  .headingWith {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 750px) {
+  .aboutUsWrapper {
+    padding-left: 79px;
+    box-sizing: border-box;
+  }
+  .frameParent {
+    gap: 53px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .aboutUs {
+    font-size: 38px;
+    line-height: 17px;
+  }
+  .aboutUsWrapper {
+    padding-left: 20px;
+    box-sizing: border-box;
+  }
+  .divelementorWidgetWrap5,
+  .divelementorWidgetWrap6 {
+    flex: 1;
+  }
+  .divelementorWidgetWrapParent {
+    flex-wrap: wrap;
+  }
+  .frameParent {
+    gap: 26px;
+  }
+}
