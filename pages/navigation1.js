@@ -1,6 +1,9 @@
+import { useEffect, useState } from 'react'; // Import useEffect and useState from React
 import styles from './navigation.module.css';
-import react from React
+
 const Navigation = () => {
+  const [isNavbarActive, setIsNavbarActive] = useState(false); // Define state for navbar active status
+
   useEffect(() => {
     const dropdownToggles = document.querySelectorAll('.navbar > ul > .dropdown > a');
     const mobileNavToggle = document.querySelector('.mobile-nav-toggle');
@@ -16,12 +19,12 @@ const Navigation = () => {
 
     mobileNavToggle.addEventListener('click', function (event) {
       event.preventDefault();
-      navbar.classList.toggle('active');
+      setIsNavbarActive(!isNavbarActive); // Toggle navbar active status
     });
-    
+
     document.addEventListener('click', function (event) {
       if (!navbar.contains(event.target) && !mobileNavToggle.contains(event.target)) {
-        navbar.classList.remove('active');
+        setIsNavbarActive(false); // Close navbar when clicking outside
         dropdownToggles.forEach(function (dropdownToggle) {
           dropdownToggle.classList.remove('active');
           const dropdownMenu = dropdownToggle.parentNode.querySelector('ul');
@@ -29,7 +32,8 @@ const Navigation = () => {
         });
       }
     });
-  }, []);
+  }, [isNavbarActive]); // Add isNavbarActive to dependency array to ensure effect runs on state change
+  
   return (
     <header id="header" className={styles.header}>
       <div className="container d-flex justify-content-between align-items-center">
