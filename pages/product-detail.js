@@ -198,7 +198,7 @@ const ProductDetail = () => {
                     <img
                       className={styles.image38Icon}
                       alt=""
-                      src="/image-38@2x.png"
+                      src="/image-381@2x.png"
                     />
                     <div className={styles.image1}>
                       <div className={styles.image421} />
@@ -206,7 +206,7 @@ const ProductDetail = () => {
                         className={styles.image38Icon1}
                         loading="lazy"
                         alt=""
-                        src="/image-38@2x.png"
+                        src="/image-381@2x.png"
                       />
                     </div>
                   </div>
@@ -231,7 +231,7 @@ const ProductDetail = () => {
                     <img
                       className={styles.image36Icon}
                       alt=""
-                      src="/image-36@2x.png"
+                      src="/image-361@2x.png"
                     />
                     <div className={styles.image5}>
                       <div className={styles.imageArea3} />
@@ -239,7 +239,7 @@ const ProductDetail = () => {
                         className={styles.image36Icon1}
                         loading="lazy"
                         alt=""
-                        src="/image-36@2x.png"
+                        src="/image-361@2x.png"
                       />
                     </div>
                   </div>
@@ -248,7 +248,7 @@ const ProductDetail = () => {
                     <img
                       className={styles.image37Icon}
                       alt=""
-                      src="/image-37@2x.png"
+                      src="/image-371@2x.png"
                     />
                     <div className={styles.image7}>
                       <div className={styles.imageArea5} />
@@ -256,7 +256,7 @@ const ProductDetail = () => {
                         className={styles.image37Icon1}
                         loading="lazy"
                         alt=""
-                        src="/image-37@2x.png"
+                        src="/image-371@2x.png"
                       />
                     </div>
                   </div>
@@ -265,7 +265,7 @@ const ProductDetail = () => {
                     <img
                       className={styles.image39Icon}
                       alt=""
-                      src="/image-39@2x.png"
+                      src="/image-391@2x.png"
                     />
                     <div className={styles.image9}>
                       <div className={styles.imageArea7} />
@@ -273,7 +273,7 @@ const ProductDetail = () => {
                         className={styles.image39Icon1}
                         loading="lazy"
                         alt=""
-                        src="/image-39@2x.png"
+                        src="/image-391@2x.png"
                       />
                     </div>
                   </div>
@@ -298,13 +298,13 @@ const ProductDetail = () => {
                     <img
                       className={styles.image36Icon2}
                       alt=""
-                      src="/image-36@2x.png"
+                      src="/image-362@2x.png"
                     />
                     <img
                       className={styles.image37Icon2}
                       loading="lazy"
                       alt=""
-                      src="/image-36@2x.png"
+                      src="/image-362@2x.png"
                     />
                   </div>
                   <img

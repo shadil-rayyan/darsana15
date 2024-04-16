@@ -46,7 +46,7 @@ const Initiatives = () => {
                 <img
                   className={styles.productGItem}
                   alt=""
-                  src="/rectangle-306.svg"
+                  src="/rectangle-3061.svg"
                 />
                 <div className={styles.febaa93816791142192Wrapper}>
                   <img
@@ -74,7 +74,7 @@ const Initiatives = () => {
                 <img
                   className={styles.productGInner}
                   alt=""
-                  src="/rectangle-306.svg"
+                  src="/rectangle-3062.svg"
                 />
                 <div className={styles.frameDiv}>
                   <div className={styles.image50Parent}>
@@ -132,7 +132,7 @@ const Initiatives = () => {
                 <img
                   className={styles.productGChild1}
                   alt=""
-                  src="/rectangle-306.svg"
+                  src="/rectangle-3063.svg"
                 />
                 <div className={styles.d581004f8c16817418401Wrapper}>
                   <img
@@ -160,7 +160,7 @@ const Initiatives = () => {
                 <img
                   className={styles.productGChild2}
                   alt=""
-                  src="/rectangle-306.svg"
+                  src="/rectangle-3064.svg"
                 />
                 <div className={styles.image68Wrapper}>
                   <img
@@ -185,7 +185,7 @@ const Initiatives = () => {
                 <img
                   className={styles.productGChild3}
                   alt=""
-                  src="/rectangle-306.svg"
+                  src="/rectangle-3065.svg"
                 />
                 <div className={styles.febaa93816791142193Wrapper}>
                   <img
@@ -213,7 +213,7 @@ const Initiatives = () => {
                 <img
                   className={styles.frameChild2}
                   alt=""
-                  src="/rectangle-306.svg"
+                  src="/rectangle-3063.svg"
                 />
                 <div className={styles.b5996cd16791103251Wrapper}>
                   <img
@@ -241,7 +241,7 @@ const Initiatives = () => {
                   <img
                     className={styles.productGChild4}
                     alt=""
-                    src="/rectangle-306.svg"
+                    src="/rectangle-3063.svg"
                   />
                   <div className={styles.dcdeb2de37716754193141Wrapper}>
                     <img
@@ -267,7 +267,7 @@ const Initiatives = () => {
                   <img
                     className={styles.productGChild5}
                     alt=""
-                    src="/rectangle-306.svg"
+                    src="/rectangle-3063.svg"
                   />
                   <div className={styles.e30216791202631Wrapper}>
                     <img
@@ -297,7 +297,7 @@ const Initiatives = () => {
                   <img
                     className={styles.productGChild6}
                     alt=""
-                    src="/rectangle-306.svg"
+                    src="/rectangle-3064.svg"
                   />
                   <div className={styles.image67Wrapper}>
                     <img
@@ -325,7 +325,7 @@ const Initiatives = () => {
                   <img
                     className={styles.productGChild7}
                     alt=""
-                    src="/rectangle-306.svg"
+                    src="/rectangle-3063.svg"
                   />
                   <div className={styles.b78d67616802822951Wrapper}>
                     <img
@@ -354,7 +354,7 @@ const Initiatives = () => {
                 <img
                   className={styles.productGChild8}
                   alt=""
-                  src="/rectangle-306.svg"
+                  src="/rectangle-3063.svg"
                 />
                 <div className={styles.f13f27e7816802081911Wrapper}>
                   <img
@@ -380,7 +380,7 @@ const Initiatives = () => {
                 <img
                   className={styles.frameChild9}
                   alt=""
-                  src="/rectangle-306.svg"
+                  src="/rectangle-3063.svg"
                 />
                 <div className={styles.ea3ec8bde8316930730961Wrapper}>
                   <img

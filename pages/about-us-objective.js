@@ -15,7 +15,7 @@ const AboutUsObjective = () => {
       <img
         className={styles.aboutUsObjectiveChild}
         alt=""
-        src="/rectangle-22.svg"
+        src="/rectangle-221.svg"
       />
       <section className={styles.aboutUsWrapper}>
         <h1 className={styles.aboutUs}>ABOUT US</h1>
