@@ -1,0 +1,246 @@
+.divlogoIcon {
+  width: 147.4px;
+  flex: 1;
+  position: relative;
+  max-height: 100%;
+  object-fit: contain;
+}
+.innerContent {
+  align-self: stretch;
+  width: 194.1px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 13px;
+  box-sizing: border-box;
+}
+.linkAbout,
+.linkHome {
+  align-self: stretch;
+  letter-spacing: 0.16px;
+  line-height: 22.4px;
+  display: flex;
+  align-items: center;
+}
+.linkHome {
+  width: 44.3px;
+  position: relative;
+  color: #1187c9;
+  flex-shrink: 0;
+}
+.linkAbout {
+  width: 69.5px;
+  white-space: nowrap;
+}
+.linkAbout,
+.linkIcon,
+.linkKey {
+  position: relative;
+  flex-shrink: 0;
+}
+.linkKey {
+  align-self: stretch;
+  flex: 1;
+  letter-spacing: 0.16px;
+  line-height: 22.4px;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+}
+.linkIcon {
+  width: 12.2px;
+  height: 12px;
+  overflow: hidden;
+}
+.moreOptions {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 5px 0 0;
+}
+.linkOther,
+.mainNavigation {
+  align-self: stretch;
+  display: flex;
+}
+.mainNavigation {
+  width: 118.1px;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 4px;
+}
+.linkOther {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.16px;
+  line-height: 22.4px;
+  align-items: center;
+  white-space: nowrap;
+}
+.linkIcon1 {
+  width: 12.2px;
+  height: 12px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.linkWrapper,
+.mainNavigation1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.linkWrapper {
+  flex-direction: column;
+  padding: 5px 0 0;
+}
+.mainNavigation1 {
+  align-self: stretch;
+  width: 133.2px;
+  flex-direction: row;
+  gap: 3.9px;
+}
+.linkChapters {
+  align-self: stretch;
+  height: 22px;
+  position: relative;
+  letter-spacing: 0.16px;
+  line-height: 22.4px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+.chapters {
+  width: 83.1px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 16.5px 0 0;
+  box-sizing: border-box;
+}
+.link,
+.linkEye {
+  position: relative;
+  flex-shrink: 0;
+}
+.link {
+  height: 12px;
+  width: 12.2px;
+  overflow: hidden;
+  display: none;
+}
+.linkEye {
+  width: 100.9px;
+  letter-spacing: 0.16px;
+  line-height: 22.4px;
+  align-items: center;
+}
+.divcartMenuWrap,
+.linkContact,
+.linkEye {
+  align-self: stretch;
+  display: flex;
+}
+.linkContact {
+  width: 80.7px;
+  position: relative;
+  letter-spacing: 0.16px;
+  line-height: 22.4px;
+  align-items: center;
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+.divcartMenuWrap {
+  flex: 1;
+  border-radius: 30px;
+  background-color: #f9f9f9;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 18px 48px 18.2px 45px;
+  gap: 20px;
+}
+.navigationArea {
+  height: 61px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 2.6px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.signIn {
+  height: 19px;
+  width: 52.4px;
+  position: relative;
+  letter-spacing: 0.32px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.link1 {
+  width: 106px;
+  border-radius: 40px;
+  background-color: #1187c9;
+  border: 2px solid #1187c9;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 16px 23px 17px 26.8px;
+  white-space: nowrap;
+  color: #fff;
+  font-family: Roboto;
+}
+.innerContentParent,
+.mainContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.innerContentParent {
+  width: 1254px;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 26.9px;
+  top: 0;
+  z-index: 99;
+  position: sticky;
+}
+.mainContainer {
+  margin-top: -610px;
+  height: 515px;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 21px 442px 20px;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: 16px;
+  color: #242331;
+  font-family: Nunito;
+}
+@media screen and (max-width: 1125px) {
+  .divcartMenuWrap {
+    display: none;
+    padding-left: 22px;
+    padding-right: 24px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 800px) {
+  .mainContainer {
+    padding-bottom: 287px;
+    box-sizing: border-box;
+  }
+}

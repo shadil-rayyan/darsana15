@@ -1,131 +1,77 @@
-.secondaryButtonText {
-  width: 84px;
-  position: relative;
-  font-size: 16px;
-  font-weight: 600;
-  font-family: Roboto;
-  color: #fff;
-  text-align: right;
-  display: inline-block;
-  min-width: 84px;
-}
-.secondaryButton {
-  cursor: pointer;
-  border: 0;
-  padding: 16px 32px;
-  background-color: #0162e8;
-  border-radius: 8px;
-  backdrop-filter: blur(80px);
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  white-space: nowrap;
-  z-index: 1;
-}
-.secondaryButton:hover {
-  background-color: #2687ff;
-}
-.playIcon {
-  height: 24px;
-  width: 24px;
-  position: relative;
-  min-height: 24px;
-}
-.playVideo {
-  align-self: stretch;
-  position: relative;
-  font-size: 16px;
-  font-weight: 600;
-  font-family: Roboto;
-  color: #fff;
-  text-align: right;
-  display: inline-block;
-  min-width: 77px;
-}
-.childLink {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: 2.5px 0 0;
-}
-.videoButton {
-  cursor: pointer;
-  border: 0;
-  padding: 12px 16px;
-  background-color: #0162e8;
-  align-self: stretch;
-  border-radius: 8px;
-  flex-direction: row;
-  gap: 8px;
-  z-index: 1;
-}
-.secondaryButtonParent,
-.videoButton,
-.videoButtonWrapper {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-}
-.videoButtonWrapper {
-  flex: 1;
-  flex-direction: column;
-  padding: 1.5px 0 0;
-}
-.secondaryButtonParent {
-  width: 313.2px;
-  flex-direction: row;
-  gap: 24.2px;
-}
-.bijuCherianScholarship {
-  height: 72px;
+.conversation {
+  margin: 0;
+  height: 40px;
   flex: 1;
   position: relative;
-  font-weight: 800;
+  font-size: inherit;
+  line-height: 33px;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-family: inherit;
   display: inline-block;
-  max-width: 100%;
-  z-index: 1;
+  flex-shrink: 0;
+  debug_commit: 1de1738;
 }
-.bijuCherianScholarshipBcsWrapper,
-.frameDiv {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  box-sizing: border-box;
-  max-width: 100%;
-}
-.bijuCherianScholarshipBcsWrapper {
-  align-self: stretch;
-  flex-direction: row;
-  padding: 0 0 0 12px;
-}
-.frameDiv {
-  width: 379px;
-  flex-direction: column;
-  padding: 0 20px 0 0;
-  gap: 18px;
-}
-.childButton {
+.icon {
+  height: 187px;
+  width: 187px;
   position: absolute;
-  top: 18px;
-  left: 0;
-  backdrop-filter: blur(30px);
-  border-top: 1px solid #e5e5e5;
-  box-sizing: border-box;
-  width: 838.2px;
-  height: 1px;
+  margin: 0 !important;
+  top: -173px;
+  left: -15px;
+  overflow: hidden;
+  flex-shrink: 0;
+  cursor: pointer;
   z-index: 1;
+}
+.conversationBox {
+  width: 180px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+}
+.internalArchitecture,
+.weAnalyseYour {
+  margin: 0;
+}
+.weAnalyseYourContainer {
+  align-self: stretch;
+  height: 58.6px;
+  position: relative;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: capitalize;
+  font-family: Roboto;
+  color: #555;
+  display: inline-block;
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+}
+.analysisDescription,
+.analysisDescriptionWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.analysisDescription {
+  align-self: stretch;
+  gap: 19px;
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+}
+.analysisDescriptionWrapper {
+  width: 319px;
+  padding: 201px 0 0;
+  box-sizing: border-box;
 }
 .dot,
 .dot1,
 .dot2,
 .dot3,
-.dot4,
-.dot5,
-.dot6,
-.dot7 {
+.dot4 {
   height: 8px;
   width: 8px;
   position: relative;
@@ -135,192 +81,265 @@
 .dot1,
 .dot2,
 .dot3,
-.dot4,
-.dot5,
-.dot6,
-.dot7 {
+.dot4 {
   background-color: #8d8d8d;
 }
-.sliderDots {
-  position: absolute;
-  top: 0;
-  left: 332.6px;
+.sliderDots,
+.sliderDots1 {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
+}
+.sliderDots1 {
+  flex: 1;
   justify-content: flex-start;
   padding: 10px;
   gap: 9px;
-  z-index: 2;
 }
-.childButtonParent {
-  height: 28px;
-  width: 837.2px;
-  position: relative;
-  max-width: 100%;
-}
-.frameWrapper1 {
+.sliderDots {
   align-self: stretch;
-  flex-direction: row;
-  justify-content: center;
-  padding: 0 30px 29px 20px;
-  box-sizing: border-box;
+  justify-content: flex-end;
+  padding: 0 24.5px 0 28px;
 }
-.counter,
-.counterWrapper,
-.frameContainer,
-.frameWrapper1 {
+.image56Icon {
+  width: 149px;
+  height: 149px;
+  position: relative;
+  object-fit: cover;
+  cursor: pointer;
+}
+.imageSlider,
+.reputationImage {
   display: flex;
-  align-items: flex-start;
-  max-width: 100%;
-}
-.counter {
-  flex: 1;
-  flex-direction: row;
-  justify-content: space-between;
-  gap: 20px;
-}
-.counterWrapper,
-.frameContainer {
   justify-content: flex-start;
 }
-.counterWrapper {
-  align-self: stretch;
-  flex-direction: row;
-  padding: 0 0 0 12px;
-  box-sizing: border-box;
-  text-align: center;
-  font-size: 54px;
-  color: #0e0606;
-}
-.frameContainer {
+.imageSlider {
   flex: 1;
   flex-direction: column;
-  gap: 23px;
+  align-items: flex-end;
+  gap: 14px;
+  flex-shrink: 0;
+  debug_commit: 1de1738;
 }
-.frameWrapper,
-.line {
-  box-sizing: border-box;
-  max-width: 100%;
-}
-.frameWrapper {
-  align-self: stretch;
-  display: flex;
+.reputationImage {
+  width: 172.6px;
   flex-direction: row;
   align-items: flex-start;
-  justify-content: flex-end;
-  padding: 0 3px 0 0;
+  padding: 0 12px 0 11.8px;
+  box-sizing: border-box;
 }
-.line {
-  width: 1059.6px;
-  height: 1px;
+.forOurTechnical,
+.weAreWell {
+  margin: 0;
+}
+.weAreWellContainer {
+  align-self: stretch;
+  height: 58.6px;
   position: relative;
-  border-top: 1px solid #e5e5e5;
+  line-height: 24px;
+  text-transform: capitalize;
+  display: inline-block;
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+}
+.reputationDescription {
+  width: 344.7px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 69.5px;
+  min-width: 344.6999999999998px;
+  max-width: 100%;
+}
+.gallery {
+  margin: 0;
+  height: 40.3px;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  line-height: 33px;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.icon1 {
+  height: 210.7px;
+  width: 196px;
+  position: absolute;
+  margin: 0 !important;
+  top: -185.7px;
+  right: -73.3px;
+  overflow: hidden;
+  flex-shrink: 0;
+  cursor: pointer;
   z-index: 1;
 }
-.frameChild,
-.frameGroup {
-  flex-shrink: 0;
-  debug_commit: f6aba90;
-}
-.frameGroup {
-  width: 1257px;
+.galleryDescription {
+  width: 172.4px;
   display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  justify-content: flex-start;
-  gap: 72px;
-  min-width: 1257px;
-}
-.frameChild {
-  align-self: stretch;
-  flex: 1;
-  position: relative;
-  max-width: 100%;
-  overflow: hidden;
-  max-height: 100%;
-}
-.darsanaPageInner,
-.frameParent,
-.vectorWrapper {
-  display: flex;
-  box-sizing: border-box;
-  max-width: 100%;
-}
-.vectorWrapper {
-  height: 354px;
-  width: 462.2px;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-end;
-  padding: 0 0 1px;
-  min-width: 462.2000000000007px;
-}
-.darsanaPageInner,
-.frameParent {
   flex-direction: row;
-}
-.frameParent {
-  width: 1373px;
-  align-items: flex-end;
+  align-items: flex-start;
   justify-content: flex-start;
-  padding: 0 0 0 20px;
-  gap: 144px;
+  position: relative;
 }
-.darsanaPageInner {
+.kentucky39495,
+.washingtonAveManchester {
+  margin: 0;
+}
+.washingtonAveManchesterContainer {
+  height: 58.6px;
+  width: 292.2px;
+  position: relative;
+  line-height: 24px;
+  text-transform: capitalize;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.washingtonAveManchesterKenWrapper {
   align-self: stretch;
+  display: flex;
+  flex-direction: row;
   align-items: flex-start;
   justify-content: flex-end;
-  padding: 0 0 7.2px;
-  flex-shrink: 0;
-  text-align: left;
-  font-size: 20px;
-  color: rgba(255, 255, 255, 0.89);
+  font-size: 16px;
+  color: #555;
   font-family: Roboto;
 }
+.galleryDescriptionParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 19.5px;
+  min-width: 246px;
+  max-width: 100%;
+  font-size: 25px;
+  color: #252a34;
+  font-family: Poppins;
+}
+.reputationDescriptionParent {
+  width: 1299.6px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 516px 0 0;
+  box-sizing: border-box;
+  gap: 59.9px;
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+  font-size: 16px;
+  color: #555;
+  font-family: Roboto;
+}
+.initiatives {
+  margin: 0;
+  align-self: stretch;
+  height: 33px;
+  position: relative;
+  font-size: inherit;
+  line-height: 33px;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+}
+.initiativesHeader,
+.testimonialContainer,
+.testimonialContainerWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.initiativesHeader {
+  width: 129px;
+  flex-direction: column;
+  padding: 200.7px 0 0;
+}
+.testimonialContainer,
+.testimonialContainerWrapper {
+  flex-direction: row;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.testimonialContainer {
+  width: 1245px;
+  overflow: hidden;
+  padding: 0 78px 48.9px;
+  gap: 144.7px;
+}
+.testimonialContainerWrapper {
+  padding: 0 79px;
+  text-align: center;
+  font-size: 25px;
+  color: #252a34;
+  font-family: Poppins;
+}
 @media screen and (max-width: 1350px) {
-  .frameContainer {
+  .imageSlider {
     flex: 1;
   }
-  .frameGroup {
+  .reputationDescription {
     flex: 1;
     min-width: 100%;
   }
-  .frameChild {
-    align-self: stretch;
-    width: auto;
+  .reputationDescriptionParent {
+    flex-wrap: wrap;
+    padding-right: 258px;
+    box-sizing: border-box;
   }
-  .vectorWrapper {
-    flex: 1;
-  }
-  .frameParent {
+  .testimonialContainer {
     flex-wrap: wrap;
     gap: 72px;
-  }
-}
-@media screen and (max-width: 1125px) {
-  .counter {
-    flex-wrap: wrap;
     justify-content: center;
+  }
+  .testimonialContainer,
+  .testimonialContainerWrapper {
+    padding-left: 39px;
+    padding-right: 39px;
+    box-sizing: border-box;
   }
 }
 @media screen and (max-width: 800px) {
-  .frameGroup {
-    gap: 36px;
+  .reputationDescriptionParent {
+    gap: 30px;
+    padding-right: 129px;
+    box-sizing: border-box;
   }
-  .vectorWrapper {
-    min-width: 100%;
-  }
-  .frameParent {
+  .testimonialContainer {
     gap: 36px;
   }
 }
 @media screen and (max-width: 450px) {
-  .bijuCherianScholarship {
-    font-size: 16px;
+  .conversation {
+    font-size: 20px;
+    line-height: 26px;
   }
-  .frameGroup,
-  .frameParent {
+  .reputationDescription {
+    gap: 35px;
+  }
+  .gallery {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  .reputationDescriptionParent {
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+  .initiatives {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  .testimonialContainer {
     gap: 18px;
+    padding-bottom: 32px;
+    box-sizing: border-box;
   }
 }

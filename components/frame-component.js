@@ -1,75 +1,60 @@
+import { useCallback } from "react";
+import { useRouter } from "next/router";
 import styles from "./frame-component.module.css";
 
 const FrameComponent = () => {
+  const router = useRouter();
+
+  const onAboutTextClick = useCallback(() => {
+    router.push("/contact-us-final");
+  }, [router]);
+
+  const onPricingTextClick = useCallback(() => {
+    router.push("/initiatives");
+  }, [router]);
+
+  const onGalleryText1Click = useCallback(() => {
+    router.push("/chapters");
+  }, [router]);
+
   return (
-    <div className={styles.statisticsParent}>
-      <img className={styles.statisticsIcon} alt="" src="/statistics.svg" />
-      <div className={styles.listBuilder}>
-        <img
-          className={styles.logoContainerContainerConta}
-          loading="lazy"
-          alt=""
-          src="/rectangle-2967-1@2x.png"
-        />
-      </div>
-      <div className={styles.dropdownMenu}>
-        <div className={styles.progressBar}>
-          <img
-            className={styles.tableHeaderContainer}
-            loading="lazy"
-            alt=""
-            src="/vector.svg"
-          />
-        </div>
-        <img
-          className={styles.vectorIcon}
-          loading="lazy"
-          alt=""
-          src="/vector-1.svg"
-        />
-        <div className={styles.dropdownMenuInner}>
-          <div className={styles.articleWrapper}>
-            <div className={styles.article}>
-              <div className={styles.divfield} />
-              <img className={styles.oip1Icon} alt="" src="/oip-1@2x.png" />
-            </div>
-          </div>
-        </div>
-        <div className={styles.article1}>
-          <div className={styles.divfield1}>
-            <img
-              className={styles.malayala01Icon}
-              alt=""
-              src="/malayala-0-1@2x.png"
-            />
-          </div>
-        </div>
-        <div className={styles.articleParent}>
-          <div className={styles.article2} />
-          <img
-            className={styles.icon}
-            loading="lazy"
-            alt=""
-            src="/1113957-1@2x.png"
-          />
-        </div>
-        <div className={styles.article3}>
-          <img
-            className={styles.timesNowNoidaFilmCityTeleIcon}
-            loading="lazy"
-            alt=""
-            src="/timesnownoidafilmcitytelevisionchannellogopngfavpngndrzlhwer1ssjl4thcpb2aebc-1@2x.png"
-          />
+    <footer className={styles.footer}>
+      <div className={styles.footerChild} />
+      <div className={styles.footerContent}>
+        <div className={styles.wrapperDivlogo}>
+          <img className={styles.divlogoIcon} alt="" src="/divlogo1@2x.png" />
         </div>
       </div>
-      <img
-        className={styles.footerLinkContainerContaine}
-        loading="lazy"
-        alt=""
-        src="/rectangle-2967-2@2x.png"
-      />
-      <h1 className={styles.featuredOn}>Featured On</h1>
-    </div>
+      <div className={styles.menu}>
+        <div className={styles.menuheader}>
+          <div className={styles.about} onClick={onAboutTextClick}>
+            Contact us
+          </div>
+          <div className={styles.features}>About us</div>
+          <div className={styles.pricing} onClick={onPricingTextClick}>
+            Initiatives
+          </div>
+          <div className={styles.gallery} onClick={onGalleryText1Click}>
+            Chapters
+          </div>
+          <div className={styles.team}>Eye magazine</div>
+        </div>
+      </div>
+      <div className={styles.socialMedia}>
+        <div className={styles.socialIcons}>
+          <div className={styles.socialWrapper}>
+            <img className={styles.socialIcon} alt="" src="/social.svg" />
+          </div>
+          <div className={styles.socialContainer}>
+            <img className={styles.socialIcon1} alt="" src="/social@2x.png" />
+          </div>
+          <img className={styles.socialIcon2} alt="" src="/social1.svg" />
+          <div className={styles.socialFrame}>
+            <img className={styles.socialIcon3} alt="" src="/social2@2x.png" />
+          </div>
+        </div>
+      </div>
+    </footer>
   );
 };
 

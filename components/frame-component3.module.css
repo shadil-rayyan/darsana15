@@ -1,242 +1,711 @@
-.divlogoIcon {
-  width: 147.4px;
-  flex: 1;
-  position: relative;
-  max-height: 100%;
+.image55Icon {
+  height: 720px;
+  width: 1440px;
+  position: absolute;
+  margin: 0 !important;
+  right: -630.1px;
+  bottom: -438px;
   object-fit: cover;
 }
-.subtitle {
-  align-self: stretch;
-  width: 194.1px;
+.empoweringDreamsTransformin {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.heroContent,
+.image55Parent {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: flex-start;
-  justify-content: flex-end;
-  padding: 0 0 13px;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.image55Parent {
+  flex: 1;
+  position: relative;
+}
+.heroContent {
+  width: 746.9px;
+  padding: 0 53px;
   box-sizing: border-box;
 }
-.linkAbout,
-.linkHome {
-  align-self: stretch;
-  letter-spacing: 0.16px;
-  line-height: 22.4px;
-  display: flex;
-  align-items: center;
-}
-.linkHome {
-  width: 44.3px;
+.secondaryButtonText {
+  width: 84px;
   position: relative;
-  color: #1187c9;
-  flex-shrink: 0;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: Roboto;
+  color: #fff;
+  text-align: right;
+  display: inline-block;
+  min-width: 84px;
 }
-.linkAbout {
-  width: 69.5px;
-  white-space: nowrap;
-}
-.linkAbout,
-.linkIcon,
-.linkKey {
-  position: relative;
-  flex-shrink: 0;
-}
-.linkKey {
-  align-self: stretch;
-  flex: 1;
-  letter-spacing: 0.16px;
-  line-height: 22.4px;
+.secondaryButton {
+  cursor: pointer;
+  border: 0;
+  padding: 16px 32px;
+  background-color: #0162e8;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 8px;
+  backdrop-filter: blur(80px);
   display: flex;
-  align-items: center;
-  white-space: nowrap;
-}
-.linkIcon {
-  width: 12.2px;
-  height: 12px;
-  overflow: hidden;
-}
-.sorter {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-end;
-  padding: 0 0 4.8px;
-}
-.divider,
-.linkOther {
-  align-self: stretch;
-  display: flex;
-}
-.divider {
-  width: 118.8px;
   flex-direction: row;
-  align-items: flex-end;
-  justify-content: flex-start;
-  gap: 4.7px;
-}
-.linkOther {
-  flex: 1;
-  position: relative;
-  letter-spacing: 0.16px;
-  line-height: 22.4px;
-  align-items: center;
-  white-space: nowrap;
-}
-.linkIcon1 {
-  width: 12.2px;
-  height: 12px;
-  position: relative;
-  overflow: hidden;
-  flex-shrink: 0;
-}
-.linkWrapper {
-  display: flex;
-  flex-direction: column;
   align-items: flex-start;
-  justify-content: flex-end;
-  padding: 0 0 4.8px;
+  justify-content: flex-start;
+  white-space: nowrap;
+  z-index: 1;
 }
-.divider1,
-.linkChapters {
+.secondaryButton:hover {
+  background-color: #2687ff;
+}
+.playIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  object-fit: contain;
+  min-height: 24px;
+}
+.playVideo {
   align-self: stretch;
-  display: flex;
-}
-.divider1 {
-  width: 133.9px;
-  flex-direction: row;
-  align-items: flex-end;
-  justify-content: flex-start;
-  gap: 4.6px;
-}
-.linkChapters {
-  height: 22px;
   position: relative;
-  letter-spacing: 0.16px;
-  line-height: 22.4px;
-  align-items: center;
-  flex-shrink: 0;
-  white-space: nowrap;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: Roboto;
+  color: #fff;
+  text-align: right;
+  display: inline-block;
+  min-width: 77px;
 }
-.oIPBox {
-  width: 83.8px;
+.playLabel,
+.videoButton {
   display: flex;
-  flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 0 17.2px 0 0;
+}
+.playLabel {
+  flex: 1;
+  flex-direction: column;
+  padding: 2.5px 0 0;
+}
+.videoButton {
+  cursor: pointer;
+  border: 0;
+  padding: 12px 16px;
+  background-color: #0162e8;
+  position: absolute;
+  top: 1.5px;
+  left: 17px;
+  border-radius: 8px;
+  width: 141px;
+  flex-direction: row;
   box-sizing: border-box;
+  gap: 8px;
+  z-index: 2;
 }
-.link,
-.linkContact,
-.linkEye {
+.secondaryButtonParent {
+  height: 51px;
+  width: 158px;
   position: relative;
-  flex-shrink: 0;
 }
-.link {
-  height: 12px;
-  width: 12.2px;
-  overflow: hidden;
-  display: none;
-}
-.linkContact,
-.linkEye {
-  align-self: stretch;
-  width: 100.9px;
-  letter-spacing: 0.16px;
-  line-height: 22.4px;
+.buttonSet {
+  width: 478.4px;
   display: flex;
-  align-items: center;
-}
-.linkContact {
-  width: 80.7px;
-  white-space: nowrap;
-}
-.connecter,
-.divcartMenuWrap {
-  flex: 1;
-  display: flex;
-  align-items: flex-start;
-}
-.divcartMenuWrap {
-  align-self: stretch;
-  border-radius: 30px;
-  background-color: #f9f9f9;
   flex-direction: row;
-  justify-content: space-between;
-  padding: 18px 46px 18.4px 45px;
-  gap: 20px;
-}
-.connecter {
-  height: 61px;
-  flex-direction: column;
-  justify-content: flex-end;
-  padding: 0 0 2.6px;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 20px;
   box-sizing: border-box;
   max-width: 100%;
 }
-.signIn {
-  height: 19px;
-  width: 52.4px;
+.bijuCherianScholarship {
+  width: 347px;
+  height: 72px;
   position: relative;
-  letter-spacing: 0.32px;
-  line-height: 24px;
-  display: flex;
-  align-items: center;
+  font-weight: 800;
+  display: inline-block;
   flex-shrink: 0;
+  max-width: 100%;
+  z-index: 1;
 }
-.link1 {
-  width: 106px;
-  border-radius: 40px;
-  background-color: #1187c9;
-  border: 2px solid #1187c9;
+.childButton {
+  position: absolute;
+  top: 18px;
+  left: 0;
+  backdrop-filter: blur(30px);
+  border-top: 1px solid #e5e5e5;
   box-sizing: border-box;
+  width: 838.2px;
+  height: 1px;
+  z-index: 1;
+}
+.dot,
+.dot1,
+.dot2,
+.dot3,
+.dot4,
+.dot5,
+.dot6,
+.dot7 {
+  height: 8px;
+  width: 8px;
+  position: relative;
+  border-radius: 50%;
+  background-color: #000;
+}
+.dot1,
+.dot2,
+.dot3,
+.dot4,
+.dot5,
+.dot6,
+.dot7 {
+  background-color: #8d8d8d;
+}
+.sliderDots {
+  position: absolute;
+  top: 0;
+  left: 332.6px;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 19px 23px 20px 27px;
-  white-space: nowrap;
+  padding: 10px;
+  gap: 9px;
+  z-index: 2;
+}
+.statisticsDisplay {
+  height: 28px;
+  width: 837.2px;
+  position: relative;
+  max-width: 100%;
+}
+.scholarshipStats {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  max-width: 100%;
+}
+.bijuCherianScholarshipBcsParent {
+  width: 1028.6px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 23px;
+  max-width: 100%;
+}
+.bijuCherianScholarshipBcsParent,
+.counter,
+.scholarshipDetails {
+  display: flex;
+  align-items: flex-start;
+}
+.counter {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+  text-align: center;
+  font-size: 54px;
+  color: #0e0606;
+}
+.scholarshipDetails {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 52px;
+  max-width: 100%;
+}
+.line,
+.scholarshipInfo {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.scholarshipInfo {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 3px 0 0;
+}
+.line {
+  width: 1059.6px;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid #e5e5e5;
+  z-index: 1;
+}
+.designElementChild,
+.scholarshipContent {
+  max-width: 100%;
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+}
+.scholarshipContent {
+  width: 1245px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 72px;
+  min-width: 1245px;
+}
+.designElementChild {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+  max-height: 100%;
+}
+.designElement {
+  height: 354px;
+  width: 462.2px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 1px;
+  box-sizing: border-box;
+  min-width: 462.1999999999998px;
+  max-width: 100%;
+}
+.scholarshipArea {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: 20px;
+}
+.actionButtonArea,
+.buttonContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.buttonContainer {
+  flex: 1;
+  flex-direction: column;
+  gap: 16px;
+}
+.actionButtonArea {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 12px;
+  box-sizing: border-box;
+}
+.ourEvents {
+  margin: 0;
+  height: 59.2px;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  line-height: 140%;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+}
+.eventHeader {
+  width: 265.5px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 30px 0 30.1px;
+  box-sizing: border-box;
+}
+.resultContainer {
+  margin-bottom: -0.09999999999990904px;
+  flex: 1;
+  position: relative;
+  line-height: 120%;
+  font-weight: 500;
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+}
+.day {
+  width: 57.3px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+}
+.apr {
+  position: relative;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 37px;
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+}
+.eventDate {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 80px 0 0;
+}
+.eventHeaderIcon {
+  width: 197.9px;
+  height: 18.4px;
+  position: relative;
+  object-fit: contain;
+}
+.aDayWith {
+  margin: 0;
+  width: 396.8px;
+  position: relative;
+  font-size: inherit;
+  line-height: 150%;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.aDayWithOurWonderfulChildWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  max-width: 100%;
+}
+.eventContent,
+.eventDescription {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.eventContent {
+  align-self: stretch;
+  gap: 7.8px;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.eventDescription {
+  width: 479px;
+  padding: 7.7px 0 0;
+  box-sizing: border-box;
+  max-width: calc(100% - 83px);
+  margin-left: -57.3px;
+  font-size: 28px;
+}
+.arrowButtonIcon {
+  width: 58.3px;
+  height: 54.3px;
+  position: relative;
+}
+.event,
+.eventNavigation {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.eventNavigation {
+  flex-direction: column;
+  padding: 31px 0 0;
+  margin-left: -57.3px;
+}
+.event {
+  flex: 1;
+  border-radius: 20px;
+  background-color: #1897dc;
+  flex-direction: row;
+  padding: 31.1px 11.2px 38.8px;
+  box-sizing: border-box;
+  min-width: 402px;
+  max-width: 100%;
+}
+.div {
+  margin-bottom: -0.09999999999990904px;
+  position: relative;
+  line-height: 120%;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 56.5px;
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+}
+.eventDay {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+}
+.apr1 {
+  position: relative;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 37px;
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+}
+.eventDateCopy {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.eventHeaderIcon1 {
+  width: 195.2px;
+  height: 18.4px;
+  position: relative;
+  object-fit: contain;
+}
+.arrowButtonIcon1 {
+  height: 54.3px;
+  width: 57.5px;
+  position: absolute;
+  margin: 0 !important;
+  top: -2.9px;
+  right: -0.9px;
+}
+.seminarCaringFor {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  line-height: 150%;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.eventTitleArea,
+.navigationAndTitle {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.navigationAndTitle {
+  width: 391.5px;
+  justify-content: flex-start;
+  position: relative;
+}
+.eventTitleArea {
+  align-self: stretch;
+  justify-content: flex-end;
+}
+.event1,
+.eventContentCopy,
+.eventDescriptionCopy {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.eventContentCopy {
+  align-self: stretch;
+  flex-direction: column;
+  gap: 7.8px;
+  flex-shrink: 0;
+}
+.event1,
+.eventDescriptionCopy {
+  box-sizing: border-box;
+}
+.eventDescriptionCopy {
+  flex: 1;
+  flex-direction: column;
+  padding: 7.7px 0 0;
+  min-width: 307px;
+  font-size: 28px;
+}
+.event1 {
+  flex: 0.9542;
+  border-radius: 20px;
+  background-color: #1897dc;
+  flex-direction: row;
+  padding: 31.1px 24.7px 38.8px;
+  gap: 24.6px;
+  min-width: 397px;
+}
+.icon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+.button {
+  cursor: pointer;
+  border: 1px solid #000;
+  padding: 16px 15px;
+  background-color: #fff;
+  width: 56px;
+  height: 56px;
+  border-radius: 50px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.eventList,
+.moreEventsButton {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.moreEventsButton {
+  flex-direction: column;
+  padding: 47.3px 0 0;
+}
+.eventList {
+  align-self: stretch;
+  flex-direction: row;
+  gap: 25.7px;
+  max-width: 100%;
+  font-size: 48px;
+  color: #fff;
+}
+.eventHeaderParent {
+  width: 1337px;
+  gap: 14.5px;
+  max-width: 100%;
+  margin-top: -1px;
+  font-size: 40px;
+  color: #1d2130;
+}
+.callToAction,
+.eventHeaderParent,
+.heroContentParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.callToAction {
+  width: 1863.2px;
+  max-width: 138%;
+  flex-shrink: 0;
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.89);
+}
+.heroContentParent {
+  width: 1353px;
+  gap: 198px;
+  max-width: 100%;
+  text-align: left;
+  font-size: 64px;
   color: #fff;
   font-family: Roboto;
 }
-.chartThumbnail,
-.logicGate {
-  align-self: stretch;
-  display: flex;
-  flex-direction: row;
-  max-width: 100%;
-}
-.chartThumbnail {
-  width: 1254px;
-  align-items: flex-end;
-  justify-content: flex-start;
-  gap: 26.9px;
-  top: 0;
-  z-index: 99;
-  position: sticky;
-}
-.logicGate {
-  margin-top: -887px;
-  height: 497px;
-  align-items: flex-start;
-  justify-content: center;
-  padding: 0 20px 424px 22px;
-  box-sizing: border-box;
-  flex-shrink: 0;
-  text-align: left;
-  font-size: 16px;
-  color: #242331;
-  font-family: Nunito;
+@media screen and (max-width: 1350px) {
+  .scholarshipContent {
+    min-width: 100%;
+  }
+  .heroContentParent {
+    gap: 99px;
+  }
 }
 @media screen and (max-width: 1125px) {
-  .divcartMenuWrap {
-    display: none;
-    padding-left: 22px;
-    padding-right: 23px;
-    box-sizing: border-box;
+  .counter,
+  .eventList {
+    flex-wrap: wrap;
   }
 }
 @media screen and (max-width: 800px) {
-  .logicGate {
-    padding-bottom: 276px;
+  .empoweringDreamsTransformin {
+    font-size: 51px;
+    line-height: 61px;
+  }
+  .heroContent {
+    padding-left: 26px;
+    padding-right: 26px;
     box-sizing: border-box;
+  }
+  .scholarshipDetails {
+    gap: 26px;
+  }
+  .scholarshipContent {
+    gap: 36px;
+  }
+  .designElement {
+    min-width: 100%;
+  }
+  .ourEvents {
+    font-size: 32px;
+    line-height: 45px;
+  }
+  .resultContainer {
+    font-size: 38px;
+    line-height: 46px;
+  }
+  .event {
+    min-width: 100%;
+  }
+  .div {
+    font-size: 38px;
+    line-height: 46px;
+  }
+  .event1 {
+    flex-wrap: wrap;
+    min-width: 100%;
+    flex: 1;
+  }
+  .heroContentParent {
+    gap: 49px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .empoweringDreamsTransformin {
+    font-size: 38px;
+    line-height: 46px;
+  }
+  .bijuCherianScholarship {
+    font-size: 16px;
+  }
+  .scholarshipContent {
+    gap: 18px;
+  }
+  .ourEvents {
+    font-size: 24px;
+    line-height: 34px;
+  }
+  .resultContainer {
+    font-size: 29px;
+    line-height: 35px;
+  }
+  .aDayWith {
+    font-size: 22px;
+    line-height: 34px;
+  }
+  .div {
+    font-size: 29px;
+    line-height: 35px;
+  }
+  .seminarCaringFor {
+    font-size: 22px;
+    line-height: 34px;
+  }
+  .heroContentParent {
+    gap: 25px;
   }
 }

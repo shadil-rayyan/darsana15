@@ -22,7 +22,7 @@ const ProductG = ({
 
   return (
     <div className={styles.productG}>
-      <img className={styles.productGChild} alt="" src="/rectangle-306.svg" />
+      <img className={styles.productGChild} alt="" src="/rectangle-3066.svg" />
       <div className={styles.productImageSets}>
         <img
           className={styles.image39Icon}

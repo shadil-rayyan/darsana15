@@ -3,7 +3,7 @@ import styles from "./frame-component16.module.css";
 const FrameComponent16 = () => {
   return (
     <header className={styles.divlogoParent}>
-      <img className={styles.divlogoIcon} alt="" src="/divlogo@2x.png" />
+      <img className={styles.divlogoIcon} alt="" src="/divlogo3@2x.png" />
       <nav className={styles.divcartMenuWrap}>
         <div className={styles.cartMenuWrap}>
           <div className={styles.linkHome}>Home</div>

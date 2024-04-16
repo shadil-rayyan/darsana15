@@ -23,7 +23,7 @@ const FrameComponent11 = () => {
                 className={styles.image50Icon}
                 loading="lazy"
                 alt=""
-                src="/image-50@2x.png"
+                src="/image-501@2x.png"
               />
               <img
                 className={styles.image47Icon}

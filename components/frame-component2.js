@@ -1,83 +1,101 @@
-import Component from "./component";
+import { useCallback } from "react";
+import { useRouter } from "next/router";
 import styles from "./frame-component2.module.css";
 
 const FrameComponent2 = () => {
+  const router = useRouter();
+
+  const onNodeClick = useCallback(() => {
+    router.push("/conversation-list");
+  }, [router]);
+
+  const onImage56Click = useCallback(() => {
+    router.push("/gallery");
+  }, [router]);
+
+  const onNode1Click = useCallback(() => {
+    router.push("/initiatives");
+  }, [router]);
+
   return (
-    <section className={styles.darsanaPageInner}>
-      <div className={styles.frameParent}>
-        <div className={styles.frameGroup}>
-          <div className={styles.frameWrapper}>
-            <div className={styles.frameContainer}>
-              <div className={styles.frameDiv}>
-                <div className={styles.secondaryButtonParent}>
-                  <button className={styles.secondaryButton}>
-                    <div className={styles.secondaryButtonText}>What we do</div>
-                  </button>
-                  <div className={styles.videoButtonWrapper}>
-                    <button className={styles.videoButton}>
-                      <img
-                        className={styles.playIcon}
-                        alt=""
-                        src="/play-icon.svg"
-                      />
-                      <div className={styles.childLink}>
-                        <div className={styles.playVideo}>Play Video</div>
-                      </div>
-                    </button>
-                  </div>
-                </div>
-                <div className={styles.bijuCherianScholarshipBcsWrapper}>
-                  <div className={styles.bijuCherianScholarship}>
-                    Biju Cherian Scholarship (BCS) program
-                  </div>
-                </div>
-              </div>
-              <div className={styles.frameWrapper1}>
-                <div className={styles.childButtonParent}>
-                  <div className={styles.childButton} />
-                  <div className={styles.sliderDots}>
+    <section className={styles.testimonialContainerWrapper}>
+      <div className={styles.testimonialContainer}>
+        <div className={styles.analysisDescriptionWrapper}>
+          <div className={styles.analysisDescription}>
+            <div className={styles.conversationBox}>
+              <h3 className={styles.conversation}>Conversation</h3>
+              <img
+                className={styles.icon}
+                loading="lazy"
+                alt=""
+                src="/3238375-44135-1.svg"
+                onClick={onNodeClick}
+              />
+            </div>
+            <div className={styles.weAnalyseYourContainer}>
+              <p className={styles.weAnalyseYour}>
+                We analyse your website’s structure,
+              </p>
+              <p
+                className={styles.internalArchitecture}
+              >{`internal architecture & other key`}</p>
+            </div>
+          </div>
+        </div>
+        <div className={styles.reputationDescriptionParent}>
+          <div className={styles.reputationDescription}>
+            <div className={styles.reputationImage}>
+              <div className={styles.imageSlider}>
+                <div className={styles.sliderDots}>
+                  <div className={styles.sliderDots1}>
                     <div className={styles.dot} />
                     <div className={styles.dot1} />
                     <div className={styles.dot2} />
                     <div className={styles.dot3} />
                     <div className={styles.dot4} />
-                    <div className={styles.dot5} />
-                    <div className={styles.dot6} />
-                    <div className={styles.dot7} />
                   </div>
                 </div>
+                <img
+                  className={styles.image56Icon}
+                  loading="lazy"
+                  alt=""
+                  src="/image-56@2x.png"
+                  onClick={onImage56Click}
+                />
               </div>
-              <div className={styles.counterWrapper}>
-                <div className={styles.counter}>
-                  <Component number="20M" text="Number of Supporters" />
-                  <Component
-                    number="15K+"
-                    text="Volunteers Worldwide"
-                    propLeft="150.9px"
-                  />
-                  <Component
-                    number="68K+"
-                    text="We've Helped Raise"
-                    propLeft="calc(50% + 28.3px)"
-                  />
-                  <Component
-                    number="10M+"
-                    text="Projects Funded"
-                    propLeft="calc(50% + 28.3px)"
-                  />
-                </div>
+            </div>
+            <div className={styles.weAreWellContainer}>
+              <p className={styles.weAreWell}>
+                We are well known within the industry
+              </p>
+              <p className={styles.forOurTechnical}>
+                for our technical capabilities
+              </p>
+            </div>
+          </div>
+          <div className={styles.galleryDescriptionParent}>
+            <div className={styles.galleryDescription}>
+              <h3 className={styles.gallery}>Gallery</h3>
+              <img
+                className={styles.icon1}
+                loading="lazy"
+                alt=""
+                src="/6170572-3014248-1.svg"
+                onClick={onNode1Click}
+              />
+            </div>
+            <div className={styles.washingtonAveManchesterKenWrapper}>
+              <div className={styles.washingtonAveManchesterContainer}>
+                <p className={styles.washingtonAveManchester}>
+                  4517 Washington Ave. Manchester
+                </p>
+                <p className={styles.kentucky39495}>Kentucky 39495</p>
               </div>
             </div>
           </div>
-          <div className={styles.line} />
         </div>
-        <div className={styles.vectorWrapper}>
-          <img
-            className={styles.frameChild}
-            loading="lazy"
-            alt=""
-            src="/rectangle-2957.svg"
-          />
+        <div className={styles.initiativesHeader}>
+          <h3 className={styles.initiatives}>Initiatives</h3>
         </div>
       </div>
     </section>

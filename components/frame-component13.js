@@ -27,7 +27,11 @@ const FrameComponent13 = () => {
         />
       </div>
       <div className={styles.productG}>
-        <img className={styles.productGChild} alt="" src="/rectangle-306.svg" />
+        <img
+          className={styles.productGChild}
+          alt=""
+          src="/rectangle-3066.svg"
+        />
         <div className={styles.image42Wrapper}>
           <img
             className={styles.image42Icon}

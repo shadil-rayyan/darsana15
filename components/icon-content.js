@@ -39,7 +39,7 @@ const IconContent = () => {
                     <img
                       className={styles.socialMediaIconColorgoogle}
                       alt=""
-                      src="/social-media-icon-colorgoogle-sheets.svg"
+                      src="/social-media-icon-colorgoogle-sheets1.svg"
                     />
                     <div className={styles.link}>
                       <div className={styles.masterLink}>
@@ -51,7 +51,7 @@ const IconContent = () => {
                     <img
                       className={styles.socialMediaIconColorairtab}
                       alt=""
-                      src="/social-media-icon-colorairtable.svg"
+                      src="/social-media-icon-colorairtable1.svg"
                     />
                     <div className={styles.link1}>
                       <div className={styles.masterLink1}>
@@ -63,7 +63,7 @@ const IconContent = () => {
                     <img
                       className={styles.lineRoundedcsvIcon}
                       alt=""
-                      src="/line-roundedcsv.svg"
+                      src="/line-roundedcsv1.svg"
                     />
                     <div className={styles.link2}>
                       <div className={styles.masterLink2}>

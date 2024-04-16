@@ -23,7 +23,7 @@ const ProductG1 = ({
       onClick={onProductGContainerClick}
       style={productGStyle}
     >
-      <img className={styles.productGChild} alt="" src="/rectangle-306.svg" />
+      <img className={styles.productGChild} alt="" src="/rectangle-3066.svg" />
       <div className={styles.bellRossLabel}>
         <img
           className={styles.image38Icon}

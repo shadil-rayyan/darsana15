@@ -12,7 +12,7 @@ const GroupComponent = () => {
             className={styles.divlogoIcon}
             loading="lazy"
             alt=""
-            src="/divlogo@2x.png"
+            src="/divlogo2@2x.png"
           />
         </div>
       </div>
@@ -39,7 +39,7 @@ const GroupComponent = () => {
             className={styles.socialIcon}
             loading="lazy"
             alt=""
-            src="/social.svg"
+            src="/social1.svg"
           />
         </div>
         <div className={styles.socialRow1}>
