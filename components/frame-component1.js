@@ -1,149 +1,60 @@
-import { useCallback } from "react";
-import Event1 from "./event1";
+import { memo, useCallback } from "react";
 import { useRouter } from "next/router";
-import styles from "./frame-component1.module.css";
 
-const FrameComponent1 = () => {
+const FrameComponent1 = memo(() => {
   const router = useRouter();
 
-  const onNodeClick = useCallback(() => {
-    router.push("/conversation-list");
-  }, [router]);
-
-  const onImage56Click = useCallback(() => {
-    router.push("/gallery");
-  }, [router]);
-
-  const onNode1Click = useCallback(() => {
-    router.push("/initiatives");
+  const onPrimaryButtonClick = useCallback(() => {
+    router.push("/product");
   }, [router]);
 
   return (
-    <section className={styles.logicBranch}>
-      <img
-        className={styles.imageGalleryIcon}
-        loading="lazy"
-        alt=""
-        src="/rectangle-2967@2x.png"
-      />
-      <div className={styles.patternMatcher}>
-        <div className={styles.sequenceHandler}>
-          <button className={styles.button}>
-            <img className={styles.icon} alt="" src="/icon.svg" />
-          </button>
-        </div>
-        <div className={styles.sequenceHandler1}>
-          <button className={styles.button1}>
-            <img className={styles.icon1} alt="" src="/icon-1.svg" />
-          </button>
-        </div>
-        <div className={styles.variableHolder}>
-          <div className={styles.loopStructure}>
-            <div className={styles.inputProcessor}>
-              <Event1
-                prop="13"
-                aDayWithOurWonderfulChild="A day with our wonderful children "
-                arrowButton="/arrow-button.svg"
-              />
-              <Event1
-                prop="25"
-                aDayWithOurWonderfulChild="Seminar: Caring for children with autism"
-                arrowButton="/arrow-button-1.svg"
-                propMinWidth="397px"
-                propWidth="611.3px"
-                propWidth1="unset"
-                propAlignSelf="unset"
-                propFlex="unset"
-                propMinWidth1="56.5px"
-                propWidth2="unset"
-                propFlex1="1"
-                propMinWidth2="254px"
-                propDebugCommit="unset"
-                propDebugCommit1="unset"
-              />
-            </div>
+    <section className="self-stretch flex flex-row items-start justify-center pt-0 pb-[91px] pr-[26px] pl-5 box-border max-w-full shrink-0 text-left text-53xl text-gray1-400 font-poppins mq800:pb-[59px] mq800:box-border mq450:pb-[38px] mq450:box-border">
+      <div className="w-[1249px] flex flex-row items-end justify-start gap-[72px] max-w-full mq800:gap-[36px] mq450:gap-[18px] mq1125:flex-wrap">
+        <div className="w-[453px] flex flex-col items-start justify-start gap-[25px] min-w-[453px] max-w-full mq800:min-w-full mq1125:flex-1">
+          <div className="self-stretch [backdrop-filter:blur(7px)] flex flex-row items-start justify-start max-w-full z-[1]">
+            <h1 className="m-0 flex-1 relative text-inherit font-bold font-inherit inline-block max-w-full mq800:text-39xl mq450:text-24xl">
+              Discover the Magic of Locally Sourced Treasures!
+            </h1>
           </div>
-          <div className={styles.columnContainer}>
-            <div className={styles.columnContainerInner}>
-              <div className={styles.tableHeaderParent}>
-                <div className={styles.tableHeader}>
-                  <div className={styles.conversationParent}>
-                    <h3 className={styles.conversation}>Conversation</h3>
-                    <img
-                      className={styles.icon2}
-                      loading="lazy"
-                      alt=""
-                      src="/3238375-44135-1.svg"
-                      onClick={onNodeClick}
-                    />
-                  </div>
-                </div>
-                <div className={styles.weAnalyseYourContainer}>
-                  <p className={styles.weAnalyseYour}>
-                    We analyse your website’s structure,
-                  </p>
-                  <p
-                    className={styles.internalArchitecture}
-                  >{`internal architecture & other key`}</p>
-                </div>
-              </div>
-            </div>
-            <div className={styles.backdropImageContainer}>
-              <div className={styles.contentBlockContainer}>
-                <div className={styles.sliderDots}>
-                  <div className={styles.dot} />
-                  <div className={styles.dot1} />
-                  <div className={styles.dot2} />
-                  <div className={styles.dot3} />
-                  <div className={styles.dot4} />
-                </div>
-              </div>
-              <div className={styles.chartWithUs}>
-                <div className={styles.chartWithUsChild} />
-                <div className={styles.logoContainerContainer}>
-                  <div className={styles.frameParent}>
-                    <div className={styles.image56Wrapper}>
-                      <img
-                        className={styles.image56Icon}
-                        loading="lazy"
-                        alt=""
-                        src="/image-56@2x.png"
-                        onClick={onImage56Click}
-                      />
-                    </div>
-                    <h3 className={styles.gallery}>Gallery</h3>
-                  </div>
-                </div>
-                <div className={styles.weAreWellContainer}>
-                  <p className={styles.weAreWell}>
-                    We are well known within the industry
-                  </p>
-                  <p className={styles.forOurTechnical}>
-                    for our technical capabilities
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className={styles.columnContainerChild}>
-              <div className={styles.frameGroup}>
-                <div className={styles.frameWrapper}>
-                  <div className={styles.initiativesParent}>
-                    <h3 className={styles.initiatives}>Initiatives</h3>
-                    <img
-                      className={styles.icon3}
-                      loading="lazy"
-                      alt=""
-                      src="/6170572-3014248-1.svg"
-                      onClick={onNode1Click}
-                    />
-                  </div>
-                </div>
-                <div className={styles.washingtonAveManchesterContainer}>
-                  <p className={styles.washingtonAveManchester}>
-                    4517 Washington Ave. Manchester
-                  </p>
-                  <p className={styles.kentucky39495}>Kentucky 39495</p>
-                </div>
+          <div className="flex flex-row items-start justify-start py-0 px-[73px] box-border max-w-full mq450:pl-5 mq450:pr-5 mq450:box-border">
+            <button
+              className="cursor-pointer [border:none] py-6 px-12 bg-steelblue-100 rounded-17xl overflow-hidden flex flex-row items-start justify-start z-[1] hover:bg-deepskyblue-100"
+              onClick={onPrimaryButtonClick}
+            >
+              <b className="relative text-5xl leading-[18px] inline-block font-poppins text-lavenderblush text-left min-w-[91px] mq450:text-lgi mq450:leading-[14px]">
+                Explore
+              </b>
+            </button>
+          </div>
+        </div>
+        <div className="flex-1 flex flex-col items-start justify-end pt-0 px-0 pb-[33px] box-border min-w-[471px] max-w-full mq800:min-w-full">
+          <div className="self-stretch flex flex-row items-start justify-start relative max-w-full">
+            <img
+              className="h-[902px] w-[1073.6px] absolute !m-[0] bottom-[-278px] left-[-598px] overflow-hidden shrink-0 object-cover"
+              alt=""
+              src="/gallery-image@2x.png"
+            />
+            <div className="flex-1 flex flex-col items-end justify-start gap-[47px] max-w-full z-[1] mq800:gap-[23px]">
+              <img
+                className="self-stretch h-[259px] relative rounded-3xl max-w-full overflow-hidden shrink-0 object-cover"
+                loading="lazy"
+                alt=""
+                src="/rectangle-2967@2x.png"
+              />
+              <div className="self-stretch flex flex-row items-start justify-start gap-[25px] max-w-full mq800:flex-wrap">
+                <img
+                  className="self-stretch flex-1 relative rounded-3xl max-w-full overflow-hidden max-h-full object-cover min-w-[229px] min-h-[350px]"
+                  loading="lazy"
+                  alt=""
+                  src="/rectangle-2967-1@2x.png"
+                />
+                <img
+                  className="self-stretch w-[337px] relative rounded-3xl max-h-full object-cover min-h-[350px] max-w-full mq800:flex-1"
+                  loading="lazy"
+                  alt=""
+                  src="/rectangle-2967-2@2x.png"
+                />
               </div>
             </div>
           </div>
@@ -151,6 +62,6 @@ const FrameComponent1 = () => {
       </div>
     </section>
   );
-};
+});
 
 export default FrameComponent1;

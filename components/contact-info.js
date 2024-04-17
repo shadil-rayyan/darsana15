@@ -1,10 +1,10 @@
+import { memo } from "react";
 import Content1 from "./content1";
-import styles from "./contact-info.module.css";
 
-const ContactInfo = () => {
+const ContactInfo = memo(() => {
   return (
-    <div className={styles.contactInfo}>
-      <div className={styles.row}>
+    <div className="self-stretch flex flex-row items-start justify-center py-0 pr-5 pl-[21px] box-border max-w-full text-left text-13xl text-black font-h3">
+      <div className="w-[996px] flex flex-row flex-wrap items-center justify-start gap-[48px] shrink-0 [debug_commit:f6aba90] mq750:gap-[24px]">
         <Content1
           iconEmail="/icon--email.svg"
           heading="Email"
@@ -23,6 +23,6 @@ const ContactInfo = () => {
       </div>
     </div>
   );
-};
+});
 
 export default ContactInfo;
