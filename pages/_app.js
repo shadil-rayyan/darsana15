@@ -1,6 +1,7 @@
 import { Fragment } from "react";
 import Head from "next/head";
 import "./global.css";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -13,6 +14,7 @@ function MyApp({ Component, pageProps }) {
         />
       </Head>
       <Component {...pageProps} />
+      <SpeedInsights />
     </Fragment>
   );
 }
