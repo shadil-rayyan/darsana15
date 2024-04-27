@@ -1,4 +1,4 @@
-Certainly! Below is an example README.md for a Next.js website hosted on GitHub, with setup instructions and license details:
+Certainly! Below is an example README.md for a Next.js website hosted on GitHub,with setup instructions and license details:
 
 ```markdown
 # Next.js Website
