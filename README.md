@@ -22,7 +22,6 @@ To set up the development environment and run the website locally, follow these 
 
 1. Clone this repository to your local machine:
 
-```
 ```bash
 https://github.com/shadil-rayyan/darsana15.git
 ```
@@ -64,6 +63,5 @@ This project relies on the following dependencies:
 This website is a private property and its source code is not available under an open-source license. All rights reserved.
 For licensing inquiries or usage permissions, please contact the owner of this repository.
 
-```
 
 
