@@ -22,10 +22,10 @@ To set up the development environment and run the website locally, follow these 
 
 1. Clone this repository to your local machine:
 
-```bash
-git clone https://github.com/your-username/nextjs-website.git
 ```
-
+```bash
+https://github.com/shadil-rayyan/darsana15.git
+```
 2. Navigate to the project directory:
 
 ```bash
@@ -66,4 +66,4 @@ For licensing inquiries or usage permissions, please contact the owner of this r
 
 ```
 
-Feel free to customize the README to fit your specific project details and preferences.
+
