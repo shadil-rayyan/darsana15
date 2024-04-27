@@ -28,7 +28,7 @@ https://github.com/shadil-rayyan/darsana15.git
 2. Navigate to the project directory:
 
 ```bash
-cd nextjs-website
+cd darsana15
 ```
 
 3. Install dependencies using npm:
