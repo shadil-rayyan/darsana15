@@ -19,9 +19,9 @@ this is private project on rebuilding a the client website introducting more fea
 ## Setup Instructions
 
 To set up the development environment and run the website locally, follow these steps:
-
-1. Clone this repository to your local machine:
 ```
+1. Clone this repository to your local machine:
+
 ```bash
 https://github.com/shadil-rayyan/darsana15.git
 ```
